@@ -1,6 +1,3 @@
 @import './base/fonts';
-
-p {
-  display: block;
-  color: red;
-}
+@import './base/normalize';
+@import './base/reset';
