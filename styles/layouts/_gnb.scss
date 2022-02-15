@@ -60,6 +60,25 @@
         }
       }
 
+      .gnb-auth {
+        margin-left: 8px;
+
+        a {
+          @include text-style(14, $secondary);
+          font-weight: 700;
+
+          &:first-child {
+            margin-right: 8px;
+          }
+
+          &:hover {
+            a {
+              color: $blue;
+            }
+          }
+        }
+      }
+
       .btn-primary {
         width: 88px;
 
