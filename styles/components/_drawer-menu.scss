@@ -1,10 +1,9 @@
 .drawer-menu {
-  $border-top: 1px solid $border;
   $drawer-menu-item-height: 36px;
   $community-length: 8;
   $store-length: 9;
   $expert-length: 2;
-  $drawer-menu-list-padding: 8px;
+  $drawer-menu-list-padding: 20px;
 
   @function _calculate-max-content-height($length) {
     @return $drawer-menu-item-height * $length + $drawer-menu-list-padding;
@@ -40,7 +39,7 @@
     }
 
     .drawer-menu-list {
-      padding-bottom: 8px;
+      padding-bottom: $drawer-menu-list-padding;
     }
   }
 
@@ -52,7 +51,6 @@
     height: 54px;
     padding: 0 8px;
     font-weight: 700;
-    border-top: $border-top;
     transition: color 200ms ease-in-out;
 
     i {
