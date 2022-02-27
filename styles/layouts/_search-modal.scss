@@ -8,6 +8,10 @@
   padding: 12px 0;
   background-color: $white;
 
+  &-header {
+    margin-bottom: 20px;
+  }
+
   &-form {
     @include flexbox(between);
 
@@ -20,42 +24,6 @@
       flex-shrink: 0;
       width: 56px;
       margin-left: 8px;
-    }
-  }
-}
-
-.search-history {
-  &-header {
-    @include flexbox(between);
-
-    .title,
-    button {
-      @include text-style(13, $secondary);
-      font-weight: 400;
-    }
-  }
-
-  &-content {
-    margin-top: 8px;
-
-    .placeholder {
-      @include text-style(16, $tertiary);
-      font-weight: 400;
-    }
-  }
-
-  &-item {
-    @include flexbox(between);
-    height: 44px;
-    padding: 0 8px;
-
-    button:first-child {
-      @include text-style(14, $primary);
-    }
-
-    button:last-child {
-      font-size: 14px;
-      color: $tertiary;
     }
   }
 }
