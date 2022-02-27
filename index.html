@@ -51,6 +51,9 @@
                 >
                   <i class="ic-menu"></i>
                 </button>
+                
+            
+
               </div>
 
               <div class="gnb-right">
@@ -100,7 +103,8 @@
 
                   <div class="my-menu sm-hidden ">
                     <button
-                      class="my-menu-button is-active  "
+                      class="my-menu-button is-active sm-hidden"
+
                       type="button"
                       aria-label="마이메뉴 열기 버튼"
                     >
@@ -112,7 +116,8 @@
                       
                     </button>
 
-                    <div class="my-menu-content lg-only">
+                    <div class="my-menu-content sm-hidden">
+
                       <ul class="my-menu-list">
                         <li class="my-menu-item"><a href="/">마이페이지</a></li>
                         <li class="my-menu-item"><a href="/">나의 쇼핑</a></li>
@@ -153,6 +158,7 @@
               </div>
             </div>
           </div>
+         
         </div>
       </div>
     </header>
@@ -271,15 +277,19 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
+
             <header class="search-modal-header">
+
               <h1 class="visually-hidden">검색창</h1>
-            <div class="search-modal-form">
-              <div class="input-group">
-                <i class="ic-search" aria-hidden></i>
-                <input type="text" class="form-input" placeholder="스토어 검색" />
+              
+              <div class="search-modal-form">
+                <div class="input-group">
+                  <i class="ic-search" aria-hidden></i>
+                  <input type="text" class="form-input" placeholder="스토어 검색" />
+                </div>
+                <button type="button" class="btn-40 btn-ghost">취소</button>
               </div>
-              <button type="button" class="btn-40 btn-ghost">취소</button>
-            </div>
+            
             </header>
             
             <section class="search-history">
